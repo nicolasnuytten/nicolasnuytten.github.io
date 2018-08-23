@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ImageminPlugin = require('imagemin-webpack-plugin').default
 const imageminJpegRecompress = require('imagemin-jpeg-recompress');
 
-const CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
+// const CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
 
 const merge = require("webpack-merge");
 const parts = require("./webpack.parts");
@@ -96,13 +96,13 @@ const productionConfig = merge([
         plugins: [
           imageminJpegRecompress({})
         ]
-      }),
-      new CriticalPlugin({
-        src: 'index.html',
-        inline: true,
-        minify: true,
-        dest: 'index.html'
-      })
+      })//,
+      // new CriticalPlugin({
+      //   src: 'index.html',
+      //   inline: true,
+      //   minify: true,
+      //   dest: 'index.html'
+      // })
     ]
   }
 ]);

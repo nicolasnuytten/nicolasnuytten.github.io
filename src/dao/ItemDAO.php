@@ -6,6 +6,6 @@ class ItemDAO extends DAO {
     $sql = "SELECT * FROM `items`";
     $stmt = $this->pdo->prepare($sql);
     $stmt->execute();
-    return $stmt->fetch(PDO::FETCH_ASSOC);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
 }

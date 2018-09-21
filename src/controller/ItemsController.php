@@ -12,9 +12,9 @@ class ItemsController extends Controller {
   }
   
   public function index() {
-    $conditions = array();
+    // $conditions = array();
 
-    $items = $this->itemDAO->selectAll($conditions);
+    $items = $this->itemDAO->selectAll();
     $this->set('items', $items);
   }
 

@@ -21,8 +21,8 @@ class Controller {
     $this->set('css', '');
     //link to the webpack-dev-server livereload script in development mode
     // ip veranderen naar macbook ip voor op mobile, localhost voor op desktop
-    // $this->set('js', '<script src="http://localhost:8008/js/script.js"></script>');
-    $this->set('js', '<script src="http://192.168.0.237:8008/js/script.js"></script>');
+    $this->set('js', '<script src="http://localhost:8888/js/script.js"></script>');
+    // $this->set('js', '<script src="http://192.168.0.237:8888/js/script.js"></script>');
     if($this->env == 'production') {
       //link to the css file in production mode instead of no-css
       $this->set('css', '<link rel="stylesheet" href="css/style.css">');

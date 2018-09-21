@@ -5,10 +5,6 @@ class DAO {
   private static $dbUser = "portfolio";
   private static $dbPass = "portpass";
 
-  // private static $dbHost = "mysqlstudent";
-  // private static $dbName = "nicolasnuythie9v";
-  // private static $dbUser = "nicolasnuythie9v";
-  // private static $dbPass = "shu3ieZe5cho";
   private static $sharedPDO;
   protected $pdo;
 

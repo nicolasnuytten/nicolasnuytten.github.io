@@ -16,11 +16,12 @@ html {
 
 body {
   /* background: #1a1a1a; */
-  background: #E8EAED;
+  background: white;
+  font-family: Helvetica;
 }
 
 header {
-  width: 140rem;
+  width: 80vw;
   margin: 2rem auto;
 }
 
@@ -30,16 +31,21 @@ header {
   align-items: center;
 }
 
-.logo {
-  font-family: helvetica;
-  font-weight: bold;
-  letter-spacing: -1.5rem;
-  font-size: 6rem;
-  color: black;
+.nav-item-logo {
+  width: 20rem;
   animation: slide-in-right .5s cubic-bezier(.25, .46, .45, .94) both;
 }
 
-.about {
+.logo {
+  font-family: helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -1.5rem;
+  font-size: 6rem;
+  color: black;
+}
+
+.nav-item-about {
   font-family: helvetica;
   font-weight: bold;
   text-decoration: none;
@@ -48,7 +54,7 @@ header {
   opacity: .5;
 }
 
-.about:hover {
+.nav-item-about:hover {
   animation: about .5s ease-in-out alternate both;
 }
 
@@ -80,7 +86,7 @@ header {
 }
 
 main {
-  width: 140rem;
+  width: 80vw;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
@@ -90,6 +96,7 @@ main {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
+  animation: slide-bottom .5s ease-out both;
 }
 
 .item-title {
@@ -104,8 +111,8 @@ main {
   align-items: center;
   display: flex;
   z-index: -1;
-  height: 35rem;
-  width: 46rem;
+  height: 35vh;
+  width: 25vw;
   padding: 5rem;
 }
 
@@ -129,7 +136,156 @@ main {
   animation: show-text .5s alternate cubic-bezier(.39, .57, .56, 1) both;
 }
 
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-img {
+  width: 40rem;
+  height: 50rem;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: -10rem;
+  background: #39f;
+}
+
+.about-content {
+  width: 60rem;
+  height: 40rem;
+  margin-right: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Helvetica;
+}
+
+.about-text {
+  font-family: Helvetica;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  width: 5rem;
+  height: 5rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  animation: link .3s ease-in-out alternate both;
+}
+
+.back-button {
+  font-family: Helvetica;
+  color: black;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.detail-header {
+  background: url(../assets/thumbnails/mobi.png), linear-gradient(90deg, white 10%, transparent);
+  height: 50rem;
+  /* width: 60vw; */
+  background-blend-mode: overlay;
+}
+
+.detail-header-img {
+  position: absolute;
+  width: 80vw;
+  height: 50rem;
+  object-fit: cover;
+  overflow: hidden;
+  background: black;
+  mix-blend-mode: overlay;
+}
+
+.detail-header-content {
+  padding: 3rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 5rem;
+  z-index: 3;
+  position: absolute;
+}
+
+.detail-header-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20rem;
+  color: black;
+}
+
+.detail-header-online {
+  background: #39f;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  width: 15rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.detail-header-online:hover {
+  animation: online .5s cubic-bezier(.07, .82, .16, 1) alternate both;
+}
+
+.detail-header-tags {
+  font-size: 1.6rem;
+}
+
+.detail-text-content {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail {
+  width: 35vw;
+  margin-top: 3rem;
+}
+
+.detail-title {
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.detail-text {
+  font-family: Helvetica;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* .work {
+  width: 60vw;
+} */
+
 /* ANIMATIONS  */
+
 @keyframes slide-in-right {
 
   0% {
@@ -184,5 +340,42 @@ main {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes slide-bottom {
+
+  0% {
+    transform: translateY(-7rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes link {
+
+  0% {
+    fill: black;
+  }
+
+  100% {
+    fill: rgb(64, 157, 249);
+  }
+}
+
+@keyframes online {
+
+  0% {
+    background: #39f;
+    color: white;
+  }
+
+  100% {
+    background: black;
+    color: white;
   }
 }

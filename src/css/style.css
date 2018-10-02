@@ -209,16 +209,16 @@ main {
 }
 
 .mobility {
-  background: url(../assets/thumbnails/mobi.png), linear-gradient(90deg, white 15%, transparent);
+  background: url(../assets/thumbnails/mobi.png), linear-gradient(90deg, white 20%, rgba(255, 255, 255, .2));
 }
 
 .hotlinedevine {
-  background: url(../assets/thumbnails/hotlinedevine.png), linear-gradient(90deg, white 15%, transparent);
+  background: url(../assets/thumbnails/hotlinedevine.png), linear-gradient(90deg, white 20%, rgba(255, 255, 255, .2));
   background-size: contain;
 }
 
 .artframe {
-  background: url(../assets/thumbnails/artframe.png), linear-gradient(90deg, white 15%, transparent);
+  background: url(../assets/thumbnails/artframe.png), linear-gradient(90deg, white 20%, rgba(255, 255, 255, .2));
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -466,9 +466,9 @@ main {
   }
 
   .item-title {
-    width: 80vw;
+    width: 100vw;
     height: 40vh;
-    font-size: 5vw;
+    font-size: 10vw;
   }
 
   .about {
@@ -497,6 +497,10 @@ main {
 
   .items {
     grid-template-columns: 1fr;
+  }
+
+  .item:hover {
+    animation: none;
   }
 
   .detail-header {
@@ -540,17 +544,17 @@ main {
   }
 
   .mobility {
-    background: url(../assets/thumbnails/mobi.png), linear-gradient(360deg, white 15%, transparent);
+    background: url(../assets/thumbnails/mobi.png), linear-gradient(360deg, white 10%, rgba(255, 255, 255, .2));
     background-size: contain;
   }
 
   .hotlinedevine {
-    background: url(../assets/thumbnails/hotlinedevine.png), linear-gradient(360deg, white 15%, transparent);
+    background: url(../assets/thumbnails/hotlinedevine.png), linear-gradient(360deg, white 10%, rgba(255, 255, 255, .2));
     background-size: contain;
   }
 
   .artframe {
-    background: url(../assets/thumbnails/artframe.png), linear-gradient(360deg, white 15%, transparent);
+    background: url(../assets/thumbnails/artframe.png), linear-gradient(360deg, white 10%, rgba(255, 255, 255, .4));
     background-size: contain;
   }
 
@@ -574,5 +578,19 @@ main {
 
   .visual-list {
     flex-direction: column;
+  }
+
+  .visual-img {
+    width: 80vw;
+    height: 70vw;
+  }
+
+  .visual-item {
+    height: 40vh;
+  }
+
+  .case {
+    width: 80vw;
+    margin: 0 auto;
   }
 }

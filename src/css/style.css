@@ -224,6 +224,20 @@ main {
   background-position: center;
 }
 
+.resy {
+  background: url(../assets/thumbnails/resy.png), linear-gradient(90deg, white 20%, rgba(255, 255, 255, .2));
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.sixflags {
+  background: url(../assets/thumbnails/sixflags.png), linear-gradient(90deg, white 20%, rgba(255, 255, 255, .2));
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 .detail-header {
   height: 40vw;
   background-blend-mode: overlay;
@@ -317,6 +331,7 @@ main {
 .visual-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .visual-item {

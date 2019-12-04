@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Resy",
+    "color": "#FF2500",
+    "tags": "Mapbox GL JS, HTML, CSS, JS",
+    "nav_url": "work/resy.html",
+    "pic_url": "assets/thumbnails/resy.png",
+    "short_desc": "Interactive map that shows venues.",
+    "long_desc": "<h1 class='dp-title'>The Brief</h1><p class='dp-text'> Create a map using the Mapbox GLJS Library to show different venues featured in a blog post. The map needs to have a sidebar with more information on the selected venue. All this needs to be responsive for web and mobile.</p>",
+    "date": "Februari 2019",
+    "url": "https://blog.resy.com/2019/03/resy-guide-to-chicago/",
+    "visuals": ["assets/visuals/resy_1.png"]
+  },
+  {
+    "name": "Heather",
+    "color": "#FF2500",
+    "tags": "React Native, Firebase",
+    "nav_url": "work/heather.html",
+    "pic_url": "assets/thumbnails/heather.png",
+    "short_desc": "Graduation project about creating a mental health app.",
+    "long_desc": "<h1 class='dp-title'>The Brief</h1><p class='dp-text'>Young adults are at a point in their lives where they have to deal with a lot of change, questions and difficult decisions. This can cause problems such as stress, anxiety, depression,... That's why our client Me-Coaching asked us to create a tool to prevent further mental problems and give These youngsters and their complex emotions a safe haven.</p><h1 class='dp-title'>The Concept</h1><p class='dp-text'>Heather is a quirky app where users can strengthen their mental health with self-reflection and self-coaching. First, the user can do daily mood tracking to reveal negative thought patterns. And because emotions are complex and diverse we Visualize them as clouds and weather conditions. </br>Lastly, the user can improve their mood and coping skills in difficult situations with interactive exercises. Exercises can be done individually or added to a goal. We visualized these goals as journeys in landscapes such as mountains to symbolize growth and progress.",
+    "date": "January 2019",
+    "url": "https://www.behance.net/gallery/76532995/Heather",
+    "visuals": ["assets/visuals/heather.gif"],
+    "video": "assets/video/heather.mp4"
+  },
+  {
+    "name": "Draw Factory",
+    "tags": "Node.js, Three.js, Tensorflow.js",
+    "nav_url": "work/drawfactory.html",
+    "pic_url": "assets/thumbnails/drawfactory.png",
+    "short_desc": "An informative website about events all about mobility in Belgium.",
+    "long_desc": "<h1 class='dp-title'>The Brief</h1><p class='dp-text'></p>",
+    "date": "December 2018",
+    "url": "http://student.howest.be/nicolas.nuytten/20182019/EXW/index.html",
+    "video": "assets/video/drawfactory.mp4"
+  },
+  {
+    "name": "Week of Mobility",
+    "tags": "HTML, CSS, JS, PHP",
+    "nav_url": "work/mobility.html",
+    "pic_url": "assets/thumbnails/mobi.png",
+    "short_desc": "An informative website about events all about mobility in Belgium.",
+    "long_desc": "<h1 class='dp-title'>The Brief</h1><p class='dp-text'>This task was all about the week of mobility in Belgium. We had to make a website where visitors could see all of the events happening in that week near them or in a specific location (using AJAX). Also every event is stored in a database. Using PHP we had to show all of the different events.</p><h3 class='dp-title'>Conclusion</h3><p class='dp-text'>After all this project was fun and nice, besides the strugles where I learend a lot. Using PHP to display all the events and filter them. It also needed to be instant (AJAX). The result is not my best but very happy what it became. Be sure to check it out.</p>",
+    "date": "January 2018",
+    "url": "http://student.howest.be/nicolas.nuytten/20172018/ma3/mobi",
+    "visuals": ["assets/visuals/mobi_1.gif"]
+  },
+  {
+    "name": "Hotline Devine",
+    "tags": "HTML, CSS, JS, PHASER",
+    "nav_url": "work/hotline_devine.html",
+    "pic_url": "assets/thumbnails/hotlinedevine.png",
+    "short_desc": "A web game made using Phaser framework & PHP for the leaderboards.",
+    "long_desc": "<h3 class='dp-title'>The Brief</h3><p class='dp-text'> We had to make an endless game in Phaser framework using Webpack in 5 weeks in teams of two. The game has the requirements to have a scoring system (AJAX & PHP) & leaderboards. We had to work togheter by using Github.</p><h3 class='dp-title'>Deadlines</h3><p class='dp-text'>We had some deadlines on the project. In the first week we had to pitch our idea to the teachers from then we had to give them status update every week on. In the 3rd week we had to switch from projects between teams and work further on the code they wrote, we also had to present our progress we had made for a intermediate evaluation. In the last week we had to do a final presentation and explain what we worked on the other teams project.</p><h3 class='dp-title'>Teamwork</h3><p class='dp-text'>Myself and Jens Van Steen worked on this project for the first 3 weeks. We were so proud on the result we made we want to finish the game in our free time. I have to say working togheter with Jens was great. The communication was right, planned the tasks we had to do and talk about the problems we had and find a solution.</p> <h3 class='dp-title'>Conclusion</h3><p class='dp-text'> This is one of my favorite projects! Together with 'Jens Van Steen' we made our own version of the classic 'Hotline Miami' game. We made a map that was our own school building and added our teachers as characters. In this project we had to teach ourself how the framework works and fix the bugs. After the switch we added a leaderboard using PHP to the other groups game. The teamwork was very nice and we where on the same page all the time. </p>",
+    "date": "December 2017",
+    "url": "http://student.howest.be/silke.derudder/20172018/cod/hotline_devine/",
+    "visuals": ["assets/visuals/hotlinedevine_1.png"]
+  },
+  {
+    "name": "Artframe",
+    "tags": "HTML, CSS, JS",
+    "nav_url": "work/arfframe.html",
+    "pic_url": "assets/thumbnails/artframe.png",
+    "short_desc": "A web game made using Phaser framework & PHP for the leaderboards.",
+    "long_desc": "<h3 class='dp-title'>The Brief</h3><p class='dp-text'> The museum 'Boijmans van Beuningen' in Rotterdam has to close for 3 years due construction working and renovating. We had to collaborate with a school of Rotterdam and come up with some cool digital ideas so the visitors still could see what the museum has to offer. Also they wanted to get more attention of the younger generation using a digital way of showing the art pieces.</p><h3 class='dp-title'>The Concept</h3><p class='dp-text'>Our concept was to bring the art to the streets of Rotterdam instead of showing it in one place. There was an app to scan 'frames' in the city. If you can a frame, the art work comes to life. Then you could ask information using an assistant. When the user liked it he could start a tour through the whole city.</p> <h3 class='dp-title'>Conclusion</h3><p class='dp-text'> It is impressive how much work you can do as a team and the combination of different mindsets. Altough this was not always easy because you have to make sure everyone is on the same page or give honest feedback. I'm very happy with our result. We used some AR technology we haven't seen in our classes so it was experimental. </p>",
+    "date": "May 2018",
+    "url": "http://student.howest.be/nicolas.nuytten/20172018/ma4/artframe/",
+    "visuals": [
+      "assets/visuals/artframe_1.png",
+      "assets/visuals/artframe_2.jpg"
+    ],
+    "video": "assets/video/artframe.mp4"
+  }
+]

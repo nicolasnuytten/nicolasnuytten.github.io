@@ -13,7 +13,7 @@
   },
   {
     "name": "Heather",
-    "color": "#FF2500",
+    "color": "#A9D5ED",
     "tags": "React Native, Firebase",
     "nav_url": "work/heather.html",
     "pic_url": "assets/thumbnails/heather.png",
@@ -26,17 +26,19 @@
   },
   {
     "name": "Draw Factory",
+    "color": "#E05356",
     "tags": "Node.js, Three.js, Tensorflow.js",
     "nav_url": "work/drawfactory.html",
     "pic_url": "assets/thumbnails/drawfactory.png",
-    "short_desc": "An informative website about events all about mobility in Belgium.",
-    "long_desc": "<h1 class='dp-title'>The Brief</h1><p class='dp-text'></p>",
+    "short_desc": "Experimental Web school project.",
+    "long_desc": "<h1 class='dp-title'>The Brief</h1><p class='dp-text'>This was a school project about using experimental web things like frameworks, Machine learning,... We used Node.js for the project setup, Three.js for the 3D model rendering and Tenserflow.js for learning the drawings. We created a Santa Toy Machine game where you need to draw the gift on your phone and when you succesfully draw it appears on the screen. I made this together with Jens Van Steen.</p>",
     "date": "December 2018",
     "url": "http://student.howest.be/nicolas.nuytten/20182019/EXW/index.html",
     "video": "assets/video/drawfactory.mp4"
   },
   {
     "name": "Week of Mobility",
+    "color": "#43BEF4",
     "tags": "HTML, CSS, JS, PHP",
     "nav_url": "work/mobility.html",
     "pic_url": "assets/thumbnails/mobi.png",
@@ -48,6 +50,7 @@
   },
   {
     "name": "Hotline Devine",
+    "color": "#F71EEB",
     "tags": "HTML, CSS, JS, PHASER",
     "nav_url": "work/hotline_devine.html",
     "pic_url": "assets/thumbnails/hotlinedevine.png",
@@ -59,6 +62,7 @@
   },
   {
     "name": "Artframe",
+    "color": "#FB507B",
     "tags": "HTML, CSS, JS",
     "nav_url": "work/arfframe.html",
     "pic_url": "assets/thumbnails/artframe.png",

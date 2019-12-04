@@ -259,13 +259,14 @@ main {
 }
 
 .dp-top {
-  margin-top: 10vh;
+  margin-top: 6vh;
 }
 
 .dp-name {
   font-size: 5vw;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: Helvetica;
 }
 
 .dp-top-first {
@@ -303,10 +304,14 @@ main {
 .dp-url {
   font-size: 1vw;
   color: #000;
-  background: #fff;
   padding: 0.5vw 1vw;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.dp-url:hover {
+  background: white;
 }
 
 .dp-image {
@@ -337,7 +342,7 @@ main {
   width: 33vw;
 }
 
-.dp-visuals {
+.dp-visuals-list {
   margin: 2vh 0;
   width: 40vw;
   display: grid;
@@ -503,8 +508,54 @@ main {
     font-size: 5vw;
   }
 
+  .item-tags {
+    font-size: 2vw;
+  }
+
   .items {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dp-name {
+    font-size: 6vw;
+  }
+
+  .dp-url {
+    font-size: 2vw;
+  }
+
+  .dp-tags,
+  .dp-date,
+  .dp-short-desc {
+    font-size: 2vw;
+  }
+
+  .dp-title {
+    font-size: 3vw;
+  }
+
+  .dp-text {
+    font-size: 2vw;
+    line-height: 2.5vh;
+    width: 80vw;
+  }
+
+  .dp-main {
+    flex-direction: column;
+  }
+
+  .dp-visuals img {
+    min-width: 35vw;
+    max-width: 80vw;
+  }
+
+  .dp-visuals-list {
+    width: 80vw;
+  }
+
+  .footer-text {
+    font-size: 1.5vw;
+    width: 80vw;
   }
 }
 
@@ -516,9 +567,10 @@ main {
   }
 
   .item-title {
-    width: 100vw;
+    width: 80vw;
     height: 40vh;
     font-size: 10vw;
+    justify-content: center;
   }
 
   .about {
@@ -553,79 +605,32 @@ main {
     animation: none;
   }
 
-  .detail-header {
-    width: 100vw;
-    height: 70vw;
-  }
-
-  .detail-header-content {
-    padding: 0;
-    height: 70vw;
-    width: 100vw;
-    margin: 0 auto;
-  }
-
-  .detail-header-title {
-    font-size: 7vw;
-    text-align: center;
-  }
-
-  .detail-header-tags {
-    margin: 0 auto;
-    text-align: center;
-    width: 90vw;
-    font-size: 4vw;
-  }
-
-  .detail-header-online {
-    margin: 0 auto;
-    font-size: 5vw;
-    width: 50vw;
-    padding: 1rem;
-  }
-
   .back-button {
     width: 90vw;
     margin: 0 auto;
   }
 
   main {
-    width: 100vw;
-  }
-
-  .detail-text-content {
-    flex-direction: column;
-  }
-
-  .detail {
     width: 80vw;
-    margin: 0 auto;
   }
 
-  .detail-title {
+  .item-tags {
+    font-size: 3vw;
+  }
+
+  .dp-name {
     font-size: 5vw;
   }
 
-  .visuals {
-    width: 80vw;
-    margin: 0 auto;
+  .dp-short-desc {
+    font-size: 3vw;
   }
 
-  .visual-list {
-    flex-direction: column;
+  .dp-image {
+    height: 30vh;
   }
 
-  .visual-img {
-    width: 80vw;
-    height: 70vw;
-  }
-
-  .visual-item {
-    height: 40vh;
-  }
-
-  .case {
-    width: 80vw;
-    margin: 0 auto;
+  .footer-text {
+    font-size: 2vw;
   }
 }

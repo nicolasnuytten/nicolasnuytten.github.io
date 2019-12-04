@@ -92,6 +92,8 @@
         list.appendChild(li);
       });
     }
+    const btn = document.querySelector(`.dp-url`);
+    btn.style.background = project.color;
   };
 
   init();

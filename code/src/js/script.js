@@ -13,9 +13,9 @@
   };
 
   const generateList = projects => {
-    console.log(projects);
+    // console.log(projects);
     projects.forEach(project => {
-      console.log(project);
+      // console.log(project);
       const li = document.createElement(`li`);
       li.classList.add(`item`);
       li.innerHTML = `
@@ -36,7 +36,7 @@
       dp.classList.remove(`hide`);
       displayContent(project);
     }
-    console.log(project);
+    // console.log(project);
   };
 
   const displayContent = project => {
@@ -49,7 +49,10 @@
         <h2 class="dp-name">${project.name}</h2>
         <p class="dp-date">${project.date}</p>
       </div>
-      <a class="dp-url" target="_blank" href="${project.url}">Check it out</a>
+      <div>
+        <a class="dp-url" target="_blank" href="${project.url}">Check it out</a>
+        <a class="dp-url dp-design-url" target="_blank" href="${project.design_url}">Design</a>
+      </div>
       </div>
       <div class="dp-top-second">
       <p class="dp-short-desc">${project.short_desc}</p>
@@ -63,6 +66,11 @@
     </section>
     
     `;
+    if (!project.design_url) {
+      const design = document.querySelector(`.dp-design-url`);
+      design.style.display = `none`;
+    }
+
     if (project.video) {
       const video = document.createElement(`section`);
       video.innerHTML = `<h1 class="dp-title">Video</h1>
@@ -92,8 +100,10 @@
         list.appendChild(li);
       });
     }
-    const btn = document.querySelector(`.dp-url`);
-    btn.style.background = project.color;
+    const btn = document.querySelectorAll(`.dp-url`);
+    const designBtn = document.querySelectorAll(`.dp-design-url`);
+    designBtn.forEach(button => (button.style.background = project.color));
+    btn.forEach(button => (button.style.background = project.color));
   };
 
   init();

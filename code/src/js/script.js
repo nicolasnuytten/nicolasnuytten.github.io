@@ -19,14 +19,15 @@
       const li = document.createElement(`li`);
       li.classList.add(`item`);
       li.innerHTML = `
-        <div>
+        <a href="#">
           <h1 class="item-title">${project.name}
           <p class="item-tags">${project.tags}</p></h1>
           <img class="item-img" src="${project.pic_url}" alt="${project.name}" />
-        </div>
+        </a>
       `;
       list.appendChild(li);
       li.addEventListener(`click`, () => clickOnProject(project));
+      li.addEventListener(`touchstart`, () => clickOnProject(project));
     });
   };
 

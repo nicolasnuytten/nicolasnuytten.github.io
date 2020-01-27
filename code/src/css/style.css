@@ -596,6 +596,7 @@ main {
   .about {
     flex-direction: column-reverse;
     width: 80vw;
+    margin: auto;
   }
 
   .about-content {
@@ -606,10 +607,20 @@ main {
     width: 80vw;
     font-size: 4vw;
     line-height: 5vw;
+    margin: 2rem auto;
+  }
+
+  .about-title {
+    margin: 2rem 0;
   }
 
   .about-text {
     width: 80vw;
+    font-size: 2.5vw;
+  }
+
+  .about-text a {
+    font-size: 2.5vw;
   }
 
   .about-img {

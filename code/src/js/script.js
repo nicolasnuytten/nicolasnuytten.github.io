@@ -27,7 +27,7 @@
       `;
       list.appendChild(li);
       li.addEventListener(`click`, () => clickOnProject(project));
-      li.addEventListener(`touchstart`, () => clickOnProject(project));
+      li.addEventListener(`touchend`, () => clickOnProject(project));
     });
   };
 
